@@ -14,9 +14,6 @@ public class AdminDasboardPages {
     }
 
 
-    @FindBy(xpath = "(//*[@class='btn_add'])[1]")
-    public WebElement SıgnInButton;
-
     @FindBy(xpath = "//*[@name='email']")
     public WebElement TextBoxEmail;
 
